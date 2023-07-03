@@ -12,3 +12,4 @@ def solve_sudoku(board):
                 return True
 
             board[row][col] = 0
+
