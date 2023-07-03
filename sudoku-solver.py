@@ -4,3 +4,4 @@ def solve_sudoku(board):
 
     row, col = find_empty_cell(board)
 
+    for num in range(1, 10):
