@@ -56,3 +56,4 @@ def print_board(board):
             if j % 3 == 0 and j != 0:
                 print(" | ", end="")
 
+            if j == 8:
