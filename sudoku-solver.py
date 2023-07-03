@@ -92,3 +92,4 @@ if solve_sudoku(board):
     print_board(board)
 else:
     print("No solution exists for the given Sudoku.")
+
