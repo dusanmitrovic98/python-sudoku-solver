@@ -76,3 +76,4 @@ def print_board(board):
 #]
 
 board = [
+    [0, 0, 0, 0, 0, 0, 0, 1, 0],
