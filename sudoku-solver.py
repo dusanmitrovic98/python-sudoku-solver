@@ -16,3 +16,4 @@ def solve_sudoku(board):
     return False
 
 
+def find_empty_cell(board):
