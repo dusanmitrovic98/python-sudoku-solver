@@ -47,3 +47,4 @@ def is_valid(board, num, row, col):
     return True
 
 
+def print_board(board):
