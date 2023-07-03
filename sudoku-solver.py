@@ -64,3 +64,4 @@ def print_board(board):
 
 # Example Sudoku board (0 represents empty cells)
 # board = [
+#    [5, 3, 0, 0, 7, 0, 0, 0, 0],
