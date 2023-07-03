@@ -38,3 +38,4 @@ def is_valid(board, num, row, col):
     # Check 3x3 box
     start_row = (row // 3) * 3
     start_col = (col // 3) * 3
+
