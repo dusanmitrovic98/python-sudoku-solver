@@ -87,3 +87,4 @@ board = [
     [0, 4, 0, 0, 0, 0, 0, 0, 0]
 ]
 
+if solve_sudoku(board):
