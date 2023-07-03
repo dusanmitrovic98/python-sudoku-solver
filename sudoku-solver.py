@@ -39,3 +39,4 @@ def is_valid(board, num, row, col):
     start_row = (row // 3) * 3
     start_col = (col // 3) * 3
 
+    for i in range(3):
