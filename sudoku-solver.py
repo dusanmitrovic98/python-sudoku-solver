@@ -35,3 +35,4 @@ def is_valid(board, num, row, col):
         if board[i][col] == num:
             return False
 
+    # Check 3x3 box
