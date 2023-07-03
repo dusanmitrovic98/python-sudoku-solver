@@ -10,3 +10,4 @@ def solve_sudoku(board):
 
             if solve_sudoku(board):
                 return True
+
