@@ -30,3 +30,4 @@ def is_valid(board, num, row, col):
         if board[row][i] == num:
             return False
 
+    # Check column
