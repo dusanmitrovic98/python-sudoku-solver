@@ -59,3 +59,4 @@ def print_board(board):
             if j == 8:
                 print(board[i][j])
             else:
+                print(str(board[i][j]) + " ", end="")
