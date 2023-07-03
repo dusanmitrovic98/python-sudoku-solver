@@ -52,3 +52,4 @@ def print_board(board):
         if i % 3 == 0 and i != 0:
             print("- - - - - - - - - - - -")
 
+        for j in range(9):
