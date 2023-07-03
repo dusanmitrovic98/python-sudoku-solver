@@ -43,3 +43,4 @@ def is_valid(board, num, row, col):
         for j in range(3):
             if board[start_row + i][start_col + j] == num:
                 return False
+
