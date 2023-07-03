@@ -23,3 +23,4 @@ def find_empty_cell(board):
                 return i, j
     return None
 
+
