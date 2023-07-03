@@ -29,3 +29,4 @@ def is_valid(board, num, row, col):
     for i in range(9):
         if board[row][i] == num:
             return False
+
