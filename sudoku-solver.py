@@ -60,3 +60,4 @@ def print_board(board):
                 print(board[i][j])
             else:
                 print(str(board[i][j]) + " ", end="")
+
