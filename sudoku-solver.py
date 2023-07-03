@@ -27,3 +27,4 @@ def find_empty_cell(board):
 def is_valid(board, num, row, col):
     # Check row
     for i in range(9):
+        if board[row][i] == num:
