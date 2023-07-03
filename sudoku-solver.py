@@ -50,3 +50,4 @@ def is_valid(board, num, row, col):
 def print_board(board):
     for i in range(9):
         if i % 3 == 0 and i != 0:
+            print("- - - - - - - - - - - -")
