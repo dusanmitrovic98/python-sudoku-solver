@@ -20,3 +20,4 @@ def find_empty_cell(board):
     for i in range(9):
         for j in range(9):
             if board[i][j] == 0:
+                return i, j
