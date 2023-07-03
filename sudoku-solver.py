@@ -22,3 +22,4 @@ def find_empty_cell(board):
             if board[i][j] == 0:
                 return i, j
     return None
+
