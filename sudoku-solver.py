@@ -24,3 +24,4 @@ def find_empty_cell(board):
     return None
 
 
+def is_valid(board, num, row, col):
