@@ -8,3 +8,4 @@ def solve_sudoku(board):
         if is_valid(board, num, row, col):
             board[row][col] = num
 
+            if solve_sudoku(board):
