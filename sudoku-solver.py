@@ -3,3 +3,4 @@ def solve_sudoku(board):
         return True
 
     row, col = find_empty_cell(board)
+
