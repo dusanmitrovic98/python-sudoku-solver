@@ -15,7 +15,6 @@ def solve_sudoku(board):
 
     return False
 
-
 def find_empty_cell(board):
     for i in range(9):
         for j in range(9):
