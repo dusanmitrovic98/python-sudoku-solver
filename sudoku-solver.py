@@ -23,7 +23,6 @@ def find_empty_cell(board):
                 return i, j
     return None
 
-
 def is_valid(board, num, row, col):
     # Check row
     for i in range(9):
