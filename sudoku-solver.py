@@ -17,3 +17,4 @@ def solve_sudoku(board):
 
 
 def find_empty_cell(board):
+    for i in range(9):
