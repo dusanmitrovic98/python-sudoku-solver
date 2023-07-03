@@ -44,7 +44,6 @@ def is_valid(board, num, row, col):
 
     return True
 
-
 def print_board(board):
     for i in range(9):
         if i % 3 == 0 and i != 0:
@@ -58,7 +57,6 @@ def print_board(board):
                 print(board[i][j])
             else:
                 print(str(board[i][j]) + " ", end="")
-
 
 # Example Sudoku board (0 represents empty cells)
 # board = [
@@ -90,4 +88,3 @@ if solve_sudoku(board):
     print_board(board)
 else:
     print("No solution exists for the given Sudoku.")
-
