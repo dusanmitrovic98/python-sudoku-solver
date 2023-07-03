@@ -9,3 +9,4 @@ def solve_sudoku(board):
             board[row][col] = num
 
             if solve_sudoku(board):
+                return True
