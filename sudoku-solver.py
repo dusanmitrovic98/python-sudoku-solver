@@ -31,3 +31,4 @@ def is_valid(board, num, row, col):
             return False
 
     # Check column
+    for i in range(9):
