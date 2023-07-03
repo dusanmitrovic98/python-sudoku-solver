@@ -44,3 +44,4 @@ def is_valid(board, num, row, col):
             if board[start_row + i][start_col + j] == num:
                 return False
 
+    return True
